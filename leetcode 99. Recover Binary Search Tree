@@ -1,0 +1,18 @@
+
+
+Two elements of a binary search tree (BST) are swapped by mistake. Recover the tree without changing its structure. 
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+
+The inorder traversal sequence of a BST is an increasing sequence, in which we will switch two nodes.
+
+1) Originally, the sequence may look like this:
+
+https://www.pinterest.com/pin/392165080034226825/
+
+2) if the switched numbers are adjacent, then the sequence becomes this: 
+https://www.pinterest.com/pin/392165080034226827/
+
+3) if the switched numbers are not adjacent, then the sequence becomes this: 
+https://www.pinterest.com/pin/392165080034226830/
+
+Consequently, if we are able to find the reversed pairs(there might be one or two pairs, depending on whether the switched nodes are adjacent in the inorder sequence), we will find the answer.
